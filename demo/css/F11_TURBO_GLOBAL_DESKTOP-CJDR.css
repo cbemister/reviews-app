@@ -1,0 +1,683 @@
+@charset "UTF-8";
+@import url(F11_TURBO_GLOBAL_DESKTOP.css);
+@import url(css.css);
+#compareForm .comparing .ddc-btn:hover, #myShowroom, .btn-oem, .compact.ddc-navbar-default, .ddc-btn-default:hover, .ddc-btn-primary, .ddc-btn-primary:hover, .ddc-btn-secondary:hover, .ddc-content .ddc-nav-stacked.ddc-nav li a, .ddc-footer, .ddc-header.responsive-centered-nav .header-contact, .ddc-mega-menu-nav .hours-default .today, .ddc-mega-menu-nav a.view-link, .ddc-nav .contact-form .ddc-form-group .ui-button-submit, .ddc-nav-inline>li>a:focus, .ddc-nav-inline>li>a:hover, .ddc-nav.ddc-mega-menu-nav .links-list .ddc-btn, .ddc-nav>li>a:focus, .ddc-nav>li>a:hover, .ddc-pagination>li>a:hover, .dsbid0008t02 .yearMake, .index .indexFeatured .inventory-featured-default .hproduct .ddc-btn.view-link:hover, .index .reg1>.ddc-row>.ddc-span12 .inventory-search-facetbrowse form .ddc-btn.submit-search, .index .reg2>.ddc-container>.ddc-row>.ddc-span3 .inventory-search-facetbrowse form .ddc-btn.submit-search, .inventoryList .hproduct .ddc-btn.view-link, .inventoryList .hproduct .media .mycars-vlp .mycars-btn:hover, .locations-proximity [type=submit]:hover, .model-selector-parallax .viewer .buttons li .ddc-btn:hover, .model-selector-responsive .ddc-nav-tabs li.active a, .model-selector-responsive .ddc-nav-tabs li.active a:hover, .model-selector-responsive .slick-slide .ddc-btn:hover, .mycars .menu .count div, .mycars .menu a.mycars-reserve-it-now-btn:hover, .mycars-favorites .hproduct .pricing .make-an-offer:hover, .nav-links a:hover, .on-deposit-link:hover, .pricing .ddc-btn[data-eprice]:hover, .pricing .ePrice .ddc-btn:hover, .pricing .eprice-button:hover, .showroom-detail .callout .callout-button:hover, .showroom-detail .hproduct .view-link:hover, .showroom-detail .ui-tabs .ui-widget-header li.ui-state-default.ui-tabs-selected, .showroom-details-section .ui-tabs .ui-widget-header li.ui-state-default.ui-tabs-selected a:hover, .tabs-tabbed-widgets.mslp .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-dialog-buttonset button:hover, .ui-slider-horizontal .ui-slider-handle, .vdp .comments-listing .ddc-btn:hover, .vdp .ddc-wrapper .ui-tabs .ui-widget-header li.ui-state-default.ui-tabs-selected, .vdp .inventory-similar-default .hproduct .view-link, .vdp .links-list .ddc-btn:hover, .vdp .mycars-vdp .ddc-btn.mycars-btn:hover, .vdp .mycars-vdp .ddc-btn:hover, a.financeapply, div.c2a-wrap h2, div.thanks-wrap h2 {
+	background-color: #9d0a0e
+}
+body {
+	color: #000
+}
+#mycars-toolbar .vehicle-details .price, .ddc-header.compact .header-default .vcard .adr::before, .ddc-header.compact .header-default .vcard .fn, .ddc-header.compact .header-default .vcard .tels .tel span.separator, .ddc-header.compact .header-default .vcard .tels .tel span.type, .ddc-icon-circle-check::before, .ddc-icon-close:hover::before, .ddc-pagination .ddc-pagination-current-page, .ddc-pagination>li>a #compareForm .ddc-pagination>li>a, .dsbid0022t01 .s01 .layer3 h4, .index .indexService .content-default>h3::before, .index .indexTestimonials .content-default>h3::before, .index .model-selector-parallax .viewer .model-heading .bodystyle, .index .model-selector-parallax .viewer .model-heading .model, .index .model-selector-parallax .viewer .pricing .price, .jcarousel-next-horizontal, .jcarousel-prev-horizontal, .model-selector-parallax .carousel-next::before, .model-selector-parallax .carousel-prev::before, .model-selector-responsive .slick-slide.focus h3 a, .model-specific-landing-inventory.mslp .hproduct .pricing .internetPrice .value, .mslp-gallery .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .mycars .menu a.mycars-btn, .mycars .menu a.mycars-btn-no-toggle, .mycars-favorites .hproduct .pricing .eprice .ui-button-text, .mycars-favorites .hproduct .remove:hover::before, .oem-icon, .pricing .dialog[data-eprice], .pricing span.final-price span.label, .pricing span.final-price span.value, .pricing span.final-price strong.price, .pricing.multiple-prices .price .final-price span.value, .pricing.single-price .final-price span, .showroom-default .ddc-content.callout[data-widget-id=showroom1] div:first-of-type strong, .showroom-main .hproduct h3, .showroom-main .inventoryList .hproduct .pricing .ddc-btn.dialog, .special .ddc-icon-info, .special a, .specials-listing .special .ddc-nav li a.ddc-link-primary:hover, .sub-page-dr-head, .ui-accordion.ddc-form-horizontal label, .ui-dialog .ddc-content>h3, .ui-dialog .ui-dialog-title, .ui-dialog span.ui-icon-closethick:hover::before, .ui-widget-content a, .ui-widget-content a.ddc-btn.ddc-btn-link, .vlp #compareForm .comparing .ddc-btn[type=reset], a, ul.custom-ul li::before, ul.custom-ul-icons li::before {
+	color: #9d0a0e
+}
+#compareForm .comparing .ddc-btn, .btn-oem, .contact-info .vcard p.fn, .content-page-title h1, .ddc-content>h3, .ddc-footer .navigation-default, .index .indexFeatured .inventory-featured-default .hproduct .ddc-btn.view-link:hover, .index .reg1>.ddc-row>.ddc-span12 .inventory-search-facetbrowse, .index .reg2>.ddc-container>.ddc-row>.ddc-span12 .inventory-search-facetbrowse, .inventoryList .hproduct .media .mycars-vlp .mycars-btn, .pricing.multiple-prices .msrp::before, .showroom-default .ddc-content[data-widget-id=showroom1] .ddc-form-group label span, .showroom-detail .incentive-title.manufacturer-incentive, .vdp .inventory-lead-default>h3, .vdp .links-list .ddc-btn, .vdp .mycars-vdp .ddc-btn, .vdp .mycars-vdp .ddc-btn.mycars-btn:hover, .vdp .tech-specs h4, fieldset h2, h3.dealerrater-aside-head, legend {
+	border-color: #9d0a0e
+}
+.ddc-btn-primary:before, .ddc-btn-primary:hover.disabled:before, .locations-proximity [type=submit]:before, .locations-proximity [type=submit]:hover.disabled:before, .mycars-favorites .hproduct .pricing .make-an-offer:before, .mycars-favorites .hproduct .pricing .make-an-offer:hover.disabled:before, .pricing .ePrice .ddc-btn:before, .pricing .ePrice .ddc-btn:hover.disabled:before, .pricing .eprice-button:before, .pricing .eprice-button:hover.disabled:before, .pricing [data-eprice].ddc-btn:before, .pricing [data-eprice].ddc-btn:hover.disabled:before, .showroom-detail .callout .callout-button:before, .showroom-detail .callout .callout-button:hover.disabled:before, .showroom-detail .hproduct .view-link:before, .showroom-detail .hproduct .view-link:hover.disabled:before, .tabs-tabbed-widgets.tabs-tabbed-widgets-extension-2 .tab-inner span.disabled.active:before, .tabs-tabbed-widgets.tabs-tabbed-widgets-extension-2 .tab-inner span.disabled.currentPage:before {
+	color: #000
+}
+.ddc-navbar-default .ddc-navbar-nav>.active>a, .ddc-navbar-default .ddc-navbar-nav>.active>a:focus, .ddc-navbar-default .ddc-navbar-nav>.active>a:hover, .ddc-navbar-default .ddc-navbar-nav>.currentPage>a, .ddc-navbar-default .ddc-navbar-nav>.currentPage>a:focus, .ddc-navbar-default .ddc-navbar-nav>.currentPage>a:hover {
+	background-color: #000
+}
+.ddc-header.responsive-centered-nav .header-navigation .ddc-mega-menu-nav .ddc-dropdown.open .caret::before, .page-header.responsive-centered-nav .header-navigation .ddc-mega-menu-nav .dropdown.open .caret::before {
+	border-color: transparent transparent #97190c;
+}
+.ddc-mega-menu-nav .inventory-featured-default .hproduct h3.fn {
+	height: auto;
+}
+.ddc-mega-menu-nav .btn.ddc-btn.btn-primary.ddc-btn-primary {
+	background: #000;
+}
+/* STYLE BOOK SERVICE NAV ITEM DESKTOP  */
+div.header-navigation.clearfix > div.navigation-default.ddc-content.navbar-nav.ddc-navbar-nav > ul li.nav-last > a {
+	background: #A00014;
+	color: white;
+}
+div.header-navigation.clearfix > div.navigation-default.ddc-content.navbar-nav.ddc-navbar-nav > ul li.nav-last > a:hover {
+	background: #fff;
+	color: black;
+}
+.ddc-header .header-default .vcard .tels .type {
+	color: #fff
+}
+.index h1 {
+	text-align: center;
+}
+#index-facet-tab {
+	background-color: rgba(179,0,0,.84)
+}
+.index .indexFeatured {
+	background-image: url(../images/70d8348707cc5168f111e65a564919f0x.jpg)
+}
+.index .indexService {
+	background-image: url(../images/67499fb4e34be3d2dfb06bc61df796f2x.jpg)
+}
+.index .indexWelcome {
+	background-image: url(../images/ff9012fa41a3b12ace0765cff8b79f46x.jpg)
+}
+.index div.indexService div.ddc-content.content-default div.content {
+	background: 0 0
+}
+.hero-image-overlay-container .recommendations-vehicles {
+	background: url(../images/a355f0d88e3ac4061c452c24dfb8a7b0x.jpg) center center/cover no-repeat fixed rgba(0,0,0,0)
+}
+.recommendations-vehicles .tile-list .vehicle-list-item {
+	min-height: 250px
+}
+.index div.indexService div.ddc-content.content-default:nth-of-type(1) {
+	background: url(../images/67499fb4e34be3d2dfb06bc61df796f2x.jpg) 0 0/cover no-repeat fixed rgba(0,0,0,0)
+}
+.index div.indexService div.ddc-content.content-default:nth-of-type(3) {
+	background: url(../images/772afa3ab9147aac3d7f6ef63e84c5a7x.jpg) 0 0/cover no-repeat rgba(0,0,0,0);
+	padding: 40px 0 120px
+}
+.ddc-container.main {
+	background-color: transparent
+}
+.ddc-header .inventory-search-form {
+	width: 26%
+}
+.ddc-nav-pills>li>a, form label span {
+	color: #333
+}
+ul.ddc-navbar-nav.ddc-mega-menu-nav .contact-form .ddc-form-group label span {
+	color: #fff
+}
+.ddc-slidein-panel .ddc-mobile-slidein-content, .dr-integrated div.calculate-payments-content, .showroom-details-section .ui-tabs-panel, .showroom-v2 #models tr th.model, .showroom-v2 #models tr.even td, .showroom-v2 #models tr.even th, .showroom-v2 #models tr.odd td, .showroom-v2 #models tr.odd th, .showroom-v2 #models tr.trimsTableHeadings th, .showroom-v2 #models tr.trimsTableHeadings th.emptyCell, .slidein-secondary .ddc-mobile-slidein-content, .slidein-secondary-stacked .ddc-mobile-slidein-content, .ui-dialog, div.calculator-payment-dealertrack-form-wrapper, div.digital-retailing-info, div.finance-application-container, div.finance-prequal-container, div.tradedriver-sections, ul.calculator-payments-tabs li, ul.calculator-payments-tabs li.active:hover>span, ul.calculator-payments-tabs li.active>span, ul.calculator-payments-tabs li.currentPage:hover>span, ul.calculator-payments-tabs li.currentPage>span, ul.dr-form-steps li.current::before, ul.dr-form-steps li::before, ul.dr-tab-navigation {
+	background: #fff
+}
+.ddc-heading-1, .showroom-details-section>h4 {
+	color: #000
+}
+.showroom-detail .ui-tabs .ui-widget-header li.ui-state-default.ui-state-hover a:link, .showroom-detail .ui-tabs .ui-widget-header li.ui-state-default.ui-tabs-selected a:link {
+	color: #fff
+}
+.ddc-footer .ddc-container>.ddc-row.four {
+	background: #000
+}
+.ddc-footer, .index .ddc-footer {
+	background: url(../images/69565e772329801b3c0f6f59a4a0eb68x.jpg) right top no-repeat #9d0a0e;
+	background-size: cover
+}
+.index .ddc-footer {
+	background-position: center 0
+}
+.ddc-footer {
+	background-position: center 60px
+}
+.ddc-footer .content-default.credit .content a.autocanadalink, .ddc-footer .content-default.credit .content a.credit {
+	background: url(../images/94f6b766e62338658d0ae3c1ac30e1c7x.jpg) 0 50% no-repeat;
+	background-size: contain
+}
+.vdp .links-list .ddc-btn[data-href*="/eprice-form.htm"], .vdp .links-list .ddc-btn[data-href*="/eprice-form.htm"]:hover {
+	font-size: 19px
+}
+.vdp .links-list .ddc-btn[data-href*="/eprice-form.htm"]:before {
+	display: none
+}
+div.ddc-content.contact-form h3 span.heading {
+	font-size: 1.15em
+}
+div.ddc-content.contact-form h3 span.sub-head {
+	font-family: TradeGothic, arial, sans-serif;
+	font-size: .85em;
+	display: block;
+	margin-top: 5px
+}
+form.ddc-form-horizontal[action*=SITEBUILDER_SALE_1]>div.ddc-form-group {
+	width: 100%;
+	display: block;
+	float: right
+}
+form.ddc-form-horizontal[action*=SITEBUILDER_SALE_1] fieldset:nth-of-type(1) {
+	width: 100%;
+	display: inline-block
+}
+form.ddc-form-horizontal[action*=SITEBUILDER_SALE_1] fieldset:nth-of-type(1) div.ddc-form-group>div {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: none
+}
+form.ddc-form-horizontal[action*=SITEBUILDER_SALE_1]>div.ddc-form-group>div button {
+	width: 100%;
+	display: block;
+	height: auto;
+	padding: 10px;
+	margin: 0;
+	text-align: center
+}
+form.ddc-form-horizontal[action*=SITEBUILDER_SALE_1] fieldset:nth-of-type(1) div.ddc-form-group {
+	width: 100%
+}
+form.ddc-form-horizontal[action*=SITEBUILDER_SALE_1]>div.ddc-form-group .ddc-offset4.ddc-span8 {
+	width: 100%;
+	margin: 0;
+	padding: 0
+}
+.hero-image-overlay-container .ddc-content.recommendations-vehicles.responsive-content>h3, .recommendations-vehicles .vehicle-list-item .price .value, .recommendations-vehicles .vehicle-list-item h3 {
+	color: #000
+}
+.recommendations-vehicles .vehicle:hover {
+	background: rgba(0,0,0,.3)
+}
+.recommendations-vehicles .vehicle-list-item .price {
+	border: 1px solid #000
+}
+.vlp .oemDetails {
+	text-align: center;
+	color: #fff!important;
+	clear: both;
+	background: #9d0a0e;
+	padding: 10px 3px 8px;
+	font-size: 14px;
+	margin-top: 14px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px -3px #000;
+	margin-bottom: -20px;
+	border-right: 1px solid #4f0204;
+	border-bottom: 1px solid #4f0204
+}
+.vlp p.campaignName {
+	font-size: 13px;
+	margin-top: 24px;
+	text-align: center
+}
+.vlp p.campaignName i {
+	font-size: 18px
+}
+.alias-auto-new-details i {
+	color: #fff;
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+.chrysler-oem-program-lp .ddc-content.contact-form.type-1 {
+	-ms-transform: scale(.9);
+	-webkit-transform: scale(.9);
+	transform: scale(.9);
+	position: relative;
+	right: 41px;
+	top: 26px
+}
+.chrysler-oem-program-lp .ddc-content.contact-form.type-1 h3 {
+	padding-top: 49px;
+	margin-top: 45px
+}
+.chrysler-oem-program-lp .oem-offers {
+	top: 440px
+}
+.chrysler-oem-program-lp a.btn.btn-lrg.btn-primary.btn-block {
+	width: 280px
+}
+.chrysler-oem-program-lp .ddc-content.recommendations-vehicles h3, .chrysler-oem-program-lp h1.ddc-page-title {
+	margin-left: 19px
+}
+.chrysler-oem-program-lp .ddc-content.contact-form.type-1 .ui-button-submit {
+	padding: 5px 20px
+}
+}
+.chrysler-oem-program-lp .type-1.contact-form.ddc-content, .chrysler-oem-program-lp-turbo .type-1.contact-form.ddc-content, label.ddc-span4.text.Offer, label.ddc-span4.text.Offer~div {
+	display: none
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal fieldset:nth-of-type(1) {
+	width: 700px;
+	display: inline-block
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal fieldset:nth-of-type(1) div.ddc-form-group {
+	width: 171px
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal fieldset:nth-of-type(1) div.ddc-form-group:last-of-type {
+	display: block;
+	width: 100%
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal fieldset:nth-of-type(1) div.ddc-form-group:last-of-type textarea {
+	width: 100%;
+	height: 60px
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal>div.ddc-form-group {
+	width: 203px;
+	display: inline-block
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal fieldset:nth-of-type(1) div.ddc-form-group>div {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: none
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal>div.ddc-form-group>div {
+	margin-top: 25px
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal>div.ddc-form-group>div button {
+	width: 183px;
+	display: block;
+	font-size: 30px;
+	height: 134px;
+	padding: 10px;
+	margin-left: 20px;
+	text-align: center
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .yui3-u-1-4.ddc-span3, .alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal>div.ddc-form-group>div button:before {
+	display: none
+}
+.alias-sitebuilder-up-to-20-percent-off-2 form.ddc-form-horizontal label {
+	padding: 0
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .ddc-content.contact-form.type-1 {
+	background: 0 0
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .contact-form .ddc-form-group label span {
+	font-family: sans-serif
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .contact-form .ui-button-submit:hover {
+	background-color: #5a5a5a
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .contact-form .ui-button-submit {
+	background-color: #00adef
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .ddc-content>h3 {
+	font-family: sans-serif;
+	font-weight: 400;
+	border-color: #00adef
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .row.oemLinks {
+	margin-right: inherit;
+	width: 910px;
+	margin-left: 15px
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .btn-default.oemButton a {
+	color: #000
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .btn-default.oemButton:hover {
+	color: #fff;
+	background: #00adef
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .btn-default.oemButton:hover a, .btn-default.oemButton a:hover {
+	color: #fff
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .btn-default.oemButton {
+	color: #333;
+	background: #fff;
+	background: -webkit-linear-gradient(rgba(255,255,255,1) 0, rgba(229,229,229,1) 100%);
+	background: -o-linear-gradient(rgba(255,255,255,1) 0, rgba(229,229,229,1) 100%);
+	background: linear-gradient(rgba(255,255,255,1) 0, rgba(229,229,229,1) 100%);
+	border-color: #ccc;
+	margin: 2px;
+	width: 223.3px
+}
+.alias-sitebuilder-up-to-20-percent-off-2 .yui3-u-3-4 {
+	width: 100%!important
+}
+.alias-sitebuilder-up-to-20-percent-off-2 #compareForm, .vlp .slideShowWrap .slides img {
+	width: 100%
+}
+/** HIDE TRADER SECTIONS **/
+.index .indexFeatured {
+ background-image: url(../images/70d8348…x.jpg);
+	display: none;
+}
+.index .indexTestimonials {
+	display: none;
+}
+/** SERVICE **/
+
+.index div.indexService .ddc-span12 {
+	padding: 0;
+}
+.service-section {
+	background-image: none;
+	padding: 0;
+}
+.index div.indexService div.container, .index div.indexService div.ddc-row, .index div.indexService div.ddc-row .index div.indexService .row, .index div.indexService div.ddc-span6:nth-of-type(1) {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.index div.indexService div.ddc-span6:nth-of-type(2) {
+	display: none;
+}
+.index div.indexService div.ddc-span6:nth-of-type(2) {
+	display: none;
+}
+.index div.indexService div.ddc-content.content-default {
+	margin-bottom: 0;
+}
+.index div.indexService div.ddc-content.content-default div.content {
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 0;
+	width: 100%;
+}
+.index div.indexService div.ddc-content.content-default > h3 {
+	display: none;
+}
+.index div.indexService div.ddc-content.content-default div.content > h3 {
+	margin: 0 0 50px;
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 36px;
+}
+.index div.indexService div.ddc-content.content-default:nth-of-type(1) {
+	padding: 0;
+	background-attachment: fixed;
+}
+.index div.indexService .row.index-service > .col-sm-7 {
+	padding-right: 0;
+}
+.index div.indexService .index-service-feature {
+}
+.index div.indexService .row.index-service-contact {
+	padding-bottom: 100px;
+	background-color: rgba(237,27,46,0.75);
+}
+.index div.indexService .index-service-feature .col-sm-6 {
+	text-align: left;
+	padding-left: 0;
+}
+.index div.indexService .index-service-feature h3, .index div.indexService .index-service-contact h3 {
+	color: #fff;
+	font-size: 36px;
+	margin: 0 0 25px;
+	padding-top: 100px;
+	text-align: center;
+	width: 100%;
+}
+.index div.indexService .index-service-contact div.phone-number {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 30px;
+	text-align: center;
+}
+.index div.indexService .index-service-contact a.ddc-btn, .index div.indexService .index-service-contact a.btn {
+	display: block;
+	color: #fff;
+	text-align: center;
+	background-color: #000;
+	padding: 15px 10px;
+	font-size: 18px;
+	margin-top: 30px;
+	border: none;
+}
+.index div.indexService .index-service-contact a.ddc-btn:hover, index div.indexService .index-service-contact a.btn:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+.index div.indexService .index-service-contact div.phone-number i {
+	background-color: #000;
+	border-radius: 15px;
+	text-align: center;
+	padding: 0 6px;
+	font-size: 16px;
+	line-height: 24px;
+	margin-right: 6px;
+}
+.index div.indexService .index-service-contact ul.ddc-hours {
+	color: #fff;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+}
+.index div.indexService .index-service-contact ul.ddc-hours span.key {
+	width: 50%;
+	font-weight: bold;
+}
+.index div.indexService .index-service-contact ul.ddc-hours span.value {
+	width: 50%;
+	color: #000;
+}
+.index div.indexService .index-service-feature i {
+	background-color: #fff;
+	border-radius: 100px;
+	box-shadow: 2px 2px 10px -8px #000;
+	display: inline-block;
+	font-size: 43px;
+	font-style: normal;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 20px 0 0;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	transition: all 0.75s ease-in 0;
+}
+.index div.indexService .index-service-feature a:hover i {
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	font-size: 46px;
+	color: #000;
+}
+.index div.indexService .index-service-feature a:hover h4 {
+	color: #999;
+}
+.index div.indexService .index-service-feature h4 {
+	color: #fff;
+	display: inline-block;
+	font-size: 22px;
+	margin: 20px auto 0;
+	white-space: pre;
+}
+.index div.indexService .index-service-feature:first-of-type .col-sm-6:nth-of-type(2), .index div.indexService .index-service-feature:first-of-type .col-sm-6:nth-of-type(3) {
+	padding: 20px 0 45px;
+}
+/*** REVIEWS ***/
+
+
+.index .indexGmap h3.widget-heading {
+	display: none;
+}
+.reviewWrapper {
+	max-width: 1024px;
+	margin: 0 auto 50px;
+}
+/*** WELCOME ***/
+
+.index .welcomeWrap {
+	background: rgba(0, 0, 0, 0) url(../images/67499fb4e34be3d2dfb06bc61df796f2x.jpg) no-repeat fixed 0 0 / cover;
+	padding: 50px 0;
+	color: #fff;
+}
+.index .welcomeMessage {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.index .welcomeWrap h3.h1 {
+	text-align: center;
+}
+.vlp .panel-heading a {
+	color: #9d0a0e;
+	text-decoration: inherit;
+}
+/*** FIXES ***/
+fieldset legend, fieldset h2, fieldset h2 {
+	color: #333;
+}
+.pagination a[rel='prev']:before, .pagination a[rel='next']:before {
+	padding: 0px;
+}
+.vdp div.ddc-content.recommendations-vehicles {
+	    background-image: none;
+	
+	
+}
+.vdp .recommendations-vehicles > h3 {
+    text-align: center;
+    color: #000;
+    font-size: 40px;border:none;
+    margin: 0;
+    padding: 40px;
+}
+.vdp .recommendations-vehicles .tile-list .info, .vdp  .recommendations-vehicles .tile-list-no-flex-layout .info {
+  
+    background-color: rgba(255,255,255,0.75);
+}
+.vdp .recommendations-vehicles .tile-list .vehicle:hover .info,.vdp .recommendations-vehicles .tile-list-no-flex-layout .vehicle:hover .info {
+    margin-top: 0;
+    background-color: rgba(255,255,255,0.9);
+}
+.vdp .recommendations-vehicles .tile-list .rv-recommended-details, .vdp .recommendations-vehicles .tile-list-no-flex-layout .rv-recommended-details {
+
+    color: #000;
+}
+
+.vdp .recommendations-vehicles a {text-align:center;}
+
+.vdp .recommendations-vehicles .vehicle-list-item {border:1px solid #e2e2e2;}
+.vdp  .recommendations-vehicles .tile-list .title, .vdp  .recommendations-vehicles .tile-list-no-flex-layout .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+/*** DIGITAL RETAILING TRIAL ***/
+
+
+
+/* === VDP === */
+
+.vdp .mycars-vdp, .vdp .ddc-content.inventory-detail-packages-options {
+	display: none;
+}
+.digital-retailing-tabs {
+	background-color: #f1f1f1;
+}
+.vdp .content-page-title {
+	background-color: #f4f4f4;
+}
+.vdp .content-page-title h1.ddc-page-title {
+	text-align: center;
+	font-weight: 700;
+}
+.vdp .content-page-title h1.ddc-page-title:hover {
+	text-decoration: none;
+	color: #000;
+}
+.vdp .ddc-content.digital-retailing-default[data-widget-id="digital-retailing-1"] .digital-retailing-trigger span {
+	background:#3fca5d;
+	color: #fff;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	height: 32px;
+	line-height: 22px;
+	top: 28px;
+	z-index: 1;
+	border-radius: 0px 0px 10px 10px;
+	width: 185px;
+	margin-right: 3px;
+}
+a.digital-retailing-trigger:hover .dr-open strong, a.digital-retailing-trigger:hover .dr-close {
+	color: #fff;
+}
+.vdp .ddc-content.digital-retailing-default[data-widget-id="digital-retailing-1"] .digital-retailing-trigger span .ddc-icon {
+	display: none;
+}
+.vdp .ddc-content.digital-retailing-default[data-widget-id="digital-retailing-1"] .digital-retailing-trigger span:before, .vdp .ddc-content.digital-retailing-default[data-widget-id="digital-retailing-1"] .digital-retailing-trigger span.dr-close:before {
+	font-family: 'fontawesome';
+	content: "\f107";
+	font-size: 17px;
+	font-weight: bold;
+	position: relative;
+	top: 4px;
+	padding-right: 5px;
+}
+.vdp .ddc-content.digital-retailing-default {
+	margin-bottom: 40px;
+	top: 0;
+}
+.no-touch .digital-retailing-trigger.active:hover, .no-touch .digital-retailing-trigger.active.hover {
+	-webkit-transform: translate(0, -5px);
+	-moz-transform: translate(0, -5px);
+	-ms-transform: translate(0, -5px);
+	-o-transform: translate(0, -5px);
+	transform: translate(0, 0);
+	color: #fff;
+}
+.no-touch .digital-retailing-trigger:hover, .no-touch .digital-retailing-trigger.hover {
+	-webkit-transform: translate(0, -5px);
+	-moz-transform: translate(0, -5px);
+	-ms-transform: translate(0, -5px);
+	-o-transform: translate(0, -5px);
+	transform: translate(0, 0);
+	color: #fff;
+}
+.digital-retailing-trigger {
+	top: -28px;
+	width: 1024px;
+}
+.digital-retailing-container.isOpen {
+	margin-bottom: 18px;
+	padding-top: 20px;
+}
+.dr-tab-navigation a {
+	color: #000;
+}
+.dr-tab-navigation .dr-tab-icon, .alias-auto-new-details i {
+	color: #c1c1c1;
+}
+.no-touch a:hover .dr-time {
+	text-decoration: none;
+	color: #a1a1a1;
+}
+.no-touch .dr-tab-navigation a:hover, .no-touch .dr-tab-navigation a:focus {
+	text-decoration: none;
+	color: #a1a1a1;
+}
+.dr-tab-navigation .active a, .dr-tab-navigation .active a i {
+	color: #2780e3;
+}
+.vdp .tradesii-widget-xs {
+	margin: 0 auto;
+	max-width: 450px;
+}
+.vdp .tradesii-root {
+	visibility: hidden;
+	margin-bottom: 30px;
+}
+.ddc-content.comments-listing {
+	display: none;
+}
+.vdp .digital-retailing-toolbox {
+	color: #000;
+	border: 1px solid #e2e2e2;
+}
+.vdp .digital-retailing-toolbox h3 {
+	height: 74px;
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+	background-image: url(../images/e9fa43f4cdc75133ac4c087da2697fcbx.jpg);
+	background-size: contain;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+}
+.digital-retailing-toolbox .tools-list .tool, .digital-retailing-toolbox .tools-list .tool:active, .digital-retailing-toolbox .tools-list .tool:visited, .digital-retailing-toolbox .tools-list .tool:focus {
+	color: #fff;
+	font-weight: 100;
+	background-color: #a1a1a1;
+}
+.digital-retailing-toolbox .tools-list .tool:hover, .digital-retailing-toolbox .tools-list .tool:active:hover, .digital-retailing-toolbox .tools-list .tool:visited:hover, .digital-retailing-toolbox .tools-list .tool:focus:hover {
+		text-decoration: none;
+	color: #fff;
+	background: #2780e3;
+	transition: background 0.2s ease-out;
+}
+.digital-retailing-toolbox .tool-info-heading, .digital-retailing-toolbox .tool-info-text {
+	color: #9d0a0e;
+}
+.digital-retailing-toolbox .tools-list li {
+	margin: 0px 0 5px 0;
+}
+.digital-retailing-toolbox .tools-list li:last-child {
+	margin-bottom: 0;
+}
+/* === VLP === */
+.vlp .span[data-href *=eprice].eprice {
+	background-color: #3a8d40 !important;
+}
+.vlp .ddc-dr-deeplink {
+	padding: 2px 5px;
+	background-color: #2780e3;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	margin-top: 8px;
+}

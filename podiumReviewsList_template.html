@@ -1,0 +1,37 @@
+<div id="app">
+	<h1>Customer Reviews </h1>
+	<div class="reviews-container">
+		<div class="header">
+			<h3>Recent Reviews</h3>
+		</div>
+		<div class="list-group reviews">
+			<div v-for="review in filteredReviews" class="review" href="#">
+				<img v-if="review.siteName === 'google'" class="website" src="//assets.podium.com/icons/google.svg" alt="Google">
+				<img v-else-if="review.siteName === 'facebook'" class="website" src="//assets.podium.com/icons/facebook.svg" alt="Google">
+				<img v-else-if="review.siteName === 'dealerrater'" class="website" src="//assets.podium.com/icons/dealerrater.svg"
+				 alt="Google">
+				<span class="name">
+					{{ review.author}}
+				</span>
+				<span class="stars">
+					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
+					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
+					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
+					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
+					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
+				</span>
+				<span class="date">
+					{{ review.publishDate }}
+				</span>
+				<div class="text">
+					{{ review.reviewBody }}
+				</div>
+			</div>
+			<div class="powered-by">
+				<a href="//podium.com" target="_blank">
+					<img class="logo" src="//assets.podium.com/icons/powered-by-podium-dark.png" alt="Powered by podium dark">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

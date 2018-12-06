@@ -1,0 +1,16 @@
+@import url(css.css);
+@import 'F11_TURBO_DEALERSHIP_DESKTOP_AIR.css';
+
+/* show all department hours link styling ~DP 18-10-17 */
+.hours-default .btn-link, .hours-default .ddc-btn-link {
+background-color: #9d0a0e;
+text-align:center;
+width: 100%;
+color:white;
+text-decoration:none;
+}
+
+/* Hide Tradesii Widget Until Loaded */
+.tradesii-root {
+    visibility: hidden;
+}

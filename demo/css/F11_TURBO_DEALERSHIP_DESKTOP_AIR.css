@@ -1,0 +1,453 @@
+@charset "UTF-8";
+/* DEALER SUPPORT SERVICES - AC MEDIAWORKS - F11_TURBO_DEALERSHIP_DESKTOP_WMG */
+
+@import 'F11_TURBO_GLOBAL_DESKTOP-CJDR.css';
+/* EMERGENCY INDEX */
+div.hero-image-overlay-container {
+	display: none;
+}
+.index .ddc-wrapper {
+
+}
+.nav-wrap {
+	background-color: #000;
+}
+
+.recommendations-vehicles {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0) url(../images/67499fb4e34be3d2dfb06bc61df796f2x.jpg) no-repeat fixed 0 0 / cover;
+    padding: 4% 0;
+}
+
+.recommendations-vehicles > h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	margin: 0;
+	padding: 40px;
+}
+.index div.service-section .reviews-index div.ddc-content.content-default:nth-of-type(1) {
+	background: #fff;
+	background-image: none;
+	padding: 25px 0 50px;
+}
+.index div.service-section div.ddc-content.content-default[data-widget-id='content-seo1'] {
+	background: rgba(0, 0, 0, 0) url(../images/67499fb4e34be3d2dfb06bc61df796f2x.jpg) no-repeat fixed 0 0 / cover;
+	padding: 25px 0;
+}
+.index div.service-section div.ddc-content.content-default[data-widget-id='content-seo1'] p {
+	color: #fff;
+}
+
+.index div.service-section div.ddc-content.content-default:nth-of-type(1) {
+	background: rgba(0, 0, 0, 0) url(../images/67499fb4e34be3d2dfb06bc61df796f2x.jpg) no-repeat fixed 0 0 / cover;
+}
+.index div.service-section div.ddc-content.content-default[data-widget-id='content7'] .content {
+	max-width: none;
+}
+.recommendations-vehicles {
+	margin: 0 auto;
+}
+.mi-slider nav {
+	top: 290px;
+}
+.slideshow-wrap img {
+	display: none;
+}
+.slideshow-wrap a.img-placeholder img {
+	display: block
+}
+
+.mod.content-raw[data-widget-id="content3"] {
+    text-align: center;
+}
+/* END EMERGENCY INDEX */
+
+/* STICKY VLP BANNERS */
+
+#vlp-fixed-banner.fixed {
+	position:relative;
+	top:0;
+}
+
+#vlp-fixed-banner {
+    position: fixed;
+    z-index: 1;
+    top: 185px;
+}
+/* END STICKY VLP BANNERS */
+
+
+/* ===== TYPE===== */
+
+/* HEADER */
+
+.ddc-header.responsive-centered-nav .header-navigation .header-default .home-logolink {
+	background-image: url("../images/f892403dfed69818f2e4bc19984b27a4x.jpg");
+	height: 100px;
+	width: 510px;
+	top: 20px;
+	background-position: right center;
+	min-width: 1px;
+	display: block;
+	max-width: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.index div.ddc-header.responsive-centered-nav .ddc-pull-left.header-default div.vcard {
+	height: 100px;
+	width: 315px;
+	top: 20px;
+}
+.ddc-header.responsive-centered-nav .header-navigation .header-default .home-logolink img {
+	display: none;
+}
+/* NAV */
+
+.ddc-header.responsive-centered-nav .header-navigation .navigation-default .ddc-navbar-nav>li>a {
+	font-size: 14px;
+}
+/* HERO (REMOVED AT DEALER REQUEST - GARCIA)
+.no-flexboxlegacy .content-hero .ddc-container {
+	margin: 125px auto 0;
+}
+*/
+
+/* index page - welcome text */
+.index .indexWelcome {
+}
+.home-hours .ddc-content.hours-default {
+	background-color: rgba(0, 0, 0, 0.50);
+	margin: 3% auto;
+}
+.home-hours .ddc-content.hours-default h3 {
+	text-align: center;
+}
+.home-hours .ddc-content.hours-default span.value {
+	text-align: right;
+}
+.home-hours .ddc-content.hours-default ul {
+	list-style-type: none;
+	padding: 0 !important;
+}
+.home-hours .ddc-content.hours-default ul li {
+	list-style-type: none;
+}
+/* ===== INDEX SECTION - ABOUT ===== 
+
+.index div.service-section div.ddc-content.content-default:nth-of-type(3) {
+	padding: 40px 0 120px;
+}
+.index div.service-section div.ddc-content.content-default:nth-of-type(3) div.content, .index div.service-section div.ddc-content.content-default:nth-of-type(3) div.content > h3 {
+	color: #fff;
+}
+/* ===== INDEX SECTION - ABOUT ===== */
+
+.hero-image-overlay-container .ddc-content.recommendations-vehicles.responsive-content > h3, .recommendations-vehicles .vehicle-list-item h3, .recommendations-vehicles .vehicle-list-item .price .value {
+	color: #fff;
+}
+.recommendations-vehicles .vehicle-list-item .price {
+	border: 1px solid #fff;
+}
+/* CARCHAT24 BUTTON*/
+.ddc-header .header-default div.carchat24-button {
+	position: absolute !important;
+	right: 364px;
+	top: 5px;
+}
+.carchat24-button {
+	display: none;
+}
+/* FOOT */
+
+/* ACCOMMODATE H3 IN SUB PAGE TESTIMONIALS */
+
+
+/* DEALERRATER STAFF PAGE ADJUST - #182571 */
+
+div.tabBox .employeeContainer tr, div.tabBox .employeeContainer tr:nth-child(2) {
+	margin-right: 0%;
+	width: 100%;
+}
+div.tabBox .employeeContainer td {
+	display: inline-block;
+	margin-right: 3%;
+	vertical-align: top;
+	padding: 0%;
+	width: 31.3%;
+}
+div.tabBox .employeeContainer td:last-of-type {
+	margin-right: 0;
+}
+.dr-employeeImage {
+	max-height: 230px;
+}
+/* VDP */
+
+.vdp .links-list .ddc-btn[data-href*="/eprice-form.htm"], .vdp .links-list .ddc-btn[data-href*="/eprice-form.htm"]:hover {
+	font-size: 19px;
+}
+.vdp .links-list .ddc-btn[data-href*="/eprice-form.htm"]:before {
+	display: none;
+}
+/* REVIEW C2A */
+.social-buttons a.ddc-btn.ddc-btn-primary {
+	margin-top: 15%;
+}
+/* QC Fixes */
+.contact-form .ddc-form-group .ddc-checkbox, .inventory-lead-default .ddc-form-group .ddc-checkbox, .model-specific-landing-lead .ddc-form-group .ddc-checkbox, .showroom-default .ddc-content[data-widget-id=showroom1] .ddc-form-group .ddc-checkbox {
+	width: 100%;
+}
+.index div.service-section .index-service-contact ul.ddc-hours span.key {
+	width: 55%;
+}
+.index div.service-section .index-service-contact ul.ddc-hours span.value {
+	width: 45%;
+}
+.mi-slider ul li img {
+}
+.mycars-default .mycars .popup a, .mycars-default .mycars.has-digital-retailing .vehicle-title a {
+	color: #fff;
+}
+
+/* RESPONSIVE ADJUSTMENTS */
+
+@media screen and (min-width: 1440px) {
+}
+
+@media screen and (min-width: 1200px) {
+/* FRAMEWORK REJIG */
+
+.ddc-container, .content-page-title h1, .vdp .content-page-title h1, .vlp .content-page-title h1 {
+	width: 1200px;
+}
+.ddc-header.responsive-centered-nav .header-navigation .header-default {
+	max-width: 1200px;
+}
+.ddc-header.responsive-centered-nav .header-contact {
+	width: 100%;
+}
+.ddc-header.responsive-centered-nav .header-contact .header-default {
+	max-width: 1200px;
+}
+#search-container, .ddc-header.responsive-centered-nav .mycars-default {
+	width: 1200px;
+}
+div#home-model-list-wrap {
+	max-width: 1200px;
+}
+.ddc-footer .ddc-container > .ddc-row, .ddc-footer .ddc-container > .ddc-row.four > div {
+	width: 1200px;
+}
+.ddc-footer .ddc-container > .ddc-row.one {
+	width: 100%
+}
+.ddc-footer .ddc-container > .ddc-row.one > .ddc-span12 {
+	width: 1024px
+}
+.ddc-footer .social-header-buttons {
+	width: 1200px;
+}
+.ddc-footer .social-header-buttons.ddc-integrations a:nth-of-type(1) {
+	right: 613px;
+}
+.ddc-footer .social-header-buttons.ddc-integrations a:nth-of-type(2) {
+	right: 576px;
+}
+.ddc-footer .social-header-buttons.ddc-integrations a:nth-of-type(3) {
+	right: 539px;
+}
+.ddc-footer .social-header-buttons.ddc-integrations a:nth-of-type(4) {
+	right: 502px;
+}
+}
+/* END RESPONSIVE ADJUSTMENTS */
+
+/* RE-ENABLE FEATURED INVENTORY HOVER BEHAVIOR TRADER CASE# 01033741*/
+
+.ddc-mega-menu-nav .inventory-featured-default .hproduct div.media {
+	height: auto;
+}
+.ddc-mega-menu-nav .inventory-featured-default .hproduct .description {
+	display: block;
+}
+.ddc-mega-menu-nav .inventory-featured-default .hproduct, .inventory-featured-financedriver .hproduct {
+	overflow: hidden;
+	margin: 0 0 24px;
+	padding: 6px 6px;
+}
+.ddc-mega-menu-nav .inventory-featured-default .hproduct div.media a {
+	margin: 0;
+	position: inherit;
+	overflow: inherit;
+	height: inherit;
+	display: inherit;
+}
+.ddc-mega-menu-nav .inventory-featured-default .hproduct > div.hover-state, .ddc-mega-menu-nav .inventory-featured-default .hproduct > div:hover {
+	top: -166px;
+}
+.ddc-mega-menu-nav .inventory-featured-default .hproduct .description {
+	height: auto;
+}
+.ddc-mega-menu-nav .inventory-featured-default .hproduct a.ddc-btn.view-link {
+	display: block;
+	background-color: #000;
+}
+.ddc-mega-menu-nav .inventory-featured-default .hproduct .description, .inventory-featured-financedriver .hproduct .description {
+	overflow: hidden;
+	padding: 0;
+	font-size: 12px;
+}
+
+/* TRADER UPDATED RECOMMENDED VEHICLES FIX */
+
+.index .main :not(.ddc-container)>.recommendations-vehicles .tile-list .vehicle-list-item .rv-recommended-details {
+    font-size: 16px;
+}
+/* END RE-ENABLE FEATURED INVENTORY HOVER BEHAVIOR */
+
+
+/* -- Custom Special Template ~ CB -- */
+
+.dsbid0027t01 .s01 .layer0 {
+    background: url(../images/ab0c2ce820ed3b3b422df7b6afb9604cx.jpg) no-repeat;
+}
+
+.dsbid0030t01 .s01 .layer0 {
+    background: url(../images/b01201b07b8aac6a50dbc5bd41e1b38dx.jpg) no-repeat;
+}
+
+.dsbid0030t01 .s01 .layer0, .dsbid0027t01 .s01 .layer0 {
+    height: 450px;
+    width: 600px;
+}
+
+.dsbid0030t01 .s01 .layer0, .dsbid0027t01 .s01 .layer0 {
+    border: none;
+}
+
+.dsbid0030t01 .layer1, .dsbid0027t01 .layer1 {
+    position: absolute;
+}
+
+.dsbid0030t01 .layer1 a img, .dsbid0027t01 .layer1 a img  {
+    border: none;
+    max-width: 330px;
+    width: 270px;
+    margin-top: 217px;
+    margin-left: 13px;
+}
+
+.dsbid0030t01 h4.vehicle, .dsbid0027t01 h4.vehicle {
+    margin-left: 17px;
+    font-size: 160%;
+    font-weight: 800;
+}
+.dsbid0030t01 .s01 .layer3 h4, .dsbid0027t01 .s01 .layer3 h4 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 25px;
+    width: 250px;
+    height: 75px;
+    overflow: hidden;
+    font-weight: 800;
+    position: absolute;
+    top: 130px;
+    left: 115px;
+}
+.dsbid0030t01 .layer4, .dsbid0027t01 .layer4 {
+    margin-top: 55px;
+    margin-left: 292px;
+    color: #000;
+}
+
+.dsbid0030t01 .layer4, .dsbid0030t01 .layer5, .dsbid0030t01 .layer6 .dsbCont, .dsbid0027t01 .layer4, .dsbid0027t01 .layer5, .dsbid0027t01 .layer6 .dsbCont {
+    width: 300px;
+    font-weight: 800;
+}
+
+.dsbid0030t01 .layer5, .dsbid0030t01 .layer6, .dsbid0030t01 .layer7, .dsbid0027t01 .layer5, .dsbid0027t01 .layer6, .dsbid0027t01 .layer7 {
+    margin-left: 292px;
+    text-indent: 0px;
+}
+
+.dsbid0030t01 .layer4, .dsbid0030t01 .layer5, .dsbid0027t01 .layer4, .dsbid0027t01 .layer5 {
+   text-align: center;
+   text-indent: 0px;
+}
+
+.dsbid0030t01 .layer6 div.dsbCont2, .dsbid0027t01 .layer6 div.dsbCont2 {
+
+}
+
+.dsbid0030t01 .s01 .layer3 .layer6 div.dsbCont, .dsbid0027t01 .s01 .layer3 .layer6 div.dsbCont {
+    padding: 12px 0px 12px 0px;
+    margin-top: 23px;
+    margin-left: 7px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.dsbid0030t01 .layer5, .dsbid0027t01 .layer5 {
+    color: #b41a1e;
+}
+
+.dsbid0030t01 .layer7 div.dsbDisc, .dsbid0027t01 .layer7 div.dsbDisc {
+    color: #000;
+    text-align: center;
+    width: 283px;
+    margin-left: 25px;
+    margin-top: 182px;
+    font-size: 10px;
+    overflow-y: auto;
+    height: 55px;
+}
+
+.dsbid0030t01 .layer6 div.dsbCont2, .dsbid0027t01 .layer6 div.dsbCont2 {
+    width: 283px;
+    height: 169px;
+    margin-left: 25px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 90%;
+    color: #000;
+    text-indent: 0px;
+    border: none;
+}
+
+.dsbid0027t01 .layer4, 
+.dsbid0027t01 .layer5, 
+.dsbid0027t01 .layer6, 
+.dsbid0027t01 .layer7,
+.dsbid0030t01 .layer4, 
+.dsbid0030t01 .layer5, 
+.dsbid0030t01 .layer6, 
+.dsbid0030t01 .layer7 {
+    position: absolute;
+}
+
+.dsbid0027t01 .layer4, .dsbid0030t01 .layer4 {
+    top: 100px;
+}
+
+.dsbid0027t01 .layer5, .dsbid0030t01 .layer5 {
+    top: 178px;
+}
+
+.dsbid0027t01 .layer6, .dsbid0030t01 .layer6 {
+    top: 193px;
+}
+
+.dsbid0027t01 .layer7, .dsbid0030t01 .layer7 {
+    top: 28px;
+}
+
+.dsbid0027t01 .layer8, .dsbid0030t01 .layer8 {
+    position: absolute;
+    bottom: 60px;
+    right: 5px;
+}
+
+/* -- End Custom Special Template -- */

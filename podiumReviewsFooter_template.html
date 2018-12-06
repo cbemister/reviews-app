@@ -1,0 +1,8 @@
+<div class="reviewWrapper" id="reviewWrapper">
+	<h3 class="sub-page-dr-head" id="ext-gen2056">See What Our Customers Are Saying</h3>
+	<div class="row ddc-row">
+	<review v-if="index < 3" v-for="(review, index) in orderedReviews" :review="review" :summary="filteredSummary" :key="review.id"></review>
+	</div>
+	</div>
+	<br>
+	<br>
