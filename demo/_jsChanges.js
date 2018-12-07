@@ -195,7 +195,10 @@ new Vue({
                     "author": "Scottyp63"
                 }]
             ],
-            orderedReviews: []
+            orderedReviews: [],
+            reviewStart: 0,
+			reviewEnd: 2
+            
         }
     },
     methods: {
@@ -257,11 +260,48 @@ new Vue({
 
                 });
 
-        }
+        },
+        setReviewsToDisplay() {
+
+			// Get saved data from sessionStorage
+			var reviewsSet = sessionStorage.getItem('reviewsSet');
+
+			if (!reviewsSet) {
+				// Save data to sessionStorage
+				sessionStorage.setItem('reviewsSet', '0');
+				console.log('store reviews set');
+
+			} else {
+
+				var reviewsSet = parseInt(sessionStorage.getItem('reviewsSet'));
+				
+				reviewsSet++;
+				var displayedReviews = reviewsSet * 3;
+
+				if ( (displayedReviews + 3 ) <= this.orderedReviews.length ) {
+					this.reviewStart = this.reviewStart + displayedReviews; 
+					this.reviewEnd = this.reviewEnd + displayedReviews; 
+					
+					reviewsSet.toString();
+					sessionStorage.setItem('reviewsSet', reviewsSet); 
+
+				} else {
+					this.reviewStart = 0; 
+                    this.reviewEnd = 2; 
+                    
+					sessionStorage.setItem('reviewsSet', '0'); 
+				}
+
+			}
+
+
+
+		}
     },
     created() {
         var self = this;
         this.sortReviews();
+        this.setReviewsToDisplay();
 
         // $.ajax({
         //     url: "//podium.co/api/v2/locations/16348/reviews?page[size]=200",
