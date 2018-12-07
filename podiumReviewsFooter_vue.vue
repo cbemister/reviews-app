@@ -72,7 +72,7 @@ new Vue({
 	el: '#reviewWrapper',
 	data() {
 		return {
-			podiumId: '16348', //UPDATE
+			podiumId: '20284', //UPDATE
 			reviewSummary: [],
 			filteredSummary: [],
 			reviews: [],
@@ -82,7 +82,9 @@ new Vue({
 			facebookReviews: [],
 			dealerRaterReviews: [],
 			combinedReviews: [],
-			orderedReviews: []
+			orderedReviews: [],
+			reviewStart: 0,
+			reviewEnd: 2
 		}
 	},
 	methods: {
@@ -108,7 +110,7 @@ new Vue({
                 // Add ID to each review
                 //review.id = self.filteredReviews.length++;
                 
-                return ((review.siteName === 'google' || 'facebook' || 'dealerrater') && review.rating >= 4)
+                return ((review.siteName === 'google' || review.siteName === 'facebook' || review.siteName === 'dealerrater') && review.rating >= 4)
             })
         },
         sortReviews() {
@@ -137,18 +139,55 @@ new Vue({
 
                 for (indexOne = 0; indexOne < self.combinedReviews.length; indexOne++) {
                          var selectedItem = self.combinedReviews[indexOne].splice(0, 1);
-                         self.orderedReviews.push(selectedItem[0]);
+
+						 if (selectedItem[0]) {
+							self.orderedReviews.push(selectedItem[0]);
+						 } 
                  }
 
                 i++;
               }
-        }
+
+				//console.log(self.orderedReviews);
+
+        },
+		setReviewsToDisplay() {
+
+			// Get saved data from sessionStorage
+			var reviewsSet = sessionStorage.getItem('reviewsSet');
+
+			if (!reviewsSet) {
+				// Save data to sessionStorage
+				sessionStorage.setItem('reviewsSet', '0');
+
+			} else {
+
+				var reviewsSet = parseInt(sessionStorage.getItem('reviewsSet'));
+				
+				reviewsSet++;
+				var displayedReviews = reviewsSet * 3;
+
+				if ( (displayedReviews + 3 ) <= this.orderedReviews.length ) {
+					this.reviewStart = this.reviewStart + displayedReviews; 
+					this.reviewEnd = this.reviewEnd + displayedReviews; 
+					
+					reviewsSet.toString();
+					sessionStorage.setItem('reviewsSet', reviewsSet); 
+
+				} else {
+					this.reviewStart = 0; 
+                    this.reviewEnd = 2; 
+                    
+					sessionStorage.setItem('reviewsSet', '0'); 
+				}
+			}
+		}
 	},
 	created() {
 		  var self = this;
 	$.ajax({
 
-		url: "//podium.co/api/v2/locations/16348/reviews?page[size]=200",
+		url: "//podium.co/api/v2/locations/" + self.podiumId + "/reviews?page[size]=200",
 		 dataFilter: function(data) {
 
 			var data = JSON.parse(data);
@@ -213,6 +252,7 @@ new Vue({
 			self.reviews = data;
 			self.filterReviews();
 			self.sortReviews();
+			self.setReviewsToDisplay()
 
 		}
 	});
