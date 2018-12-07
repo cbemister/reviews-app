@@ -8,7 +8,8 @@ new Vue({
   data () {
     return {
       reviews: null,
-      filteredReviews: []
+      filteredReviews: [],
+      podiumId: 20284
     }
   },
   methods: {
@@ -17,19 +18,11 @@ new Vue({
       var self = this;    
 
   		this.filteredReviews = this.reviews.filter(function (review) {
-			
-			let reviewBodyLength = review.reviewBody.length;
 
 			// Change date format
 			review.publishDate = formatDate(review.publishDate); 
 			
-			// Change ratings to float
-			review.rating = parseFloat(review.rating);
-			
-			// Add ID to each review
-			review.id = self.filteredReviews.length++;
-			
-  			return ((review.siteName === 'google' || 'facebook' || 'dealerrater') && reviewBodyLength > 100 && review.rating >= 4)
+  			return ((review.siteName === 'google' || 'facebook' || 'dealerrater') && review.rating >= 4)
   		})
   	}
   },
@@ -37,7 +30,7 @@ new Vue({
 	  var self = this;
 	$.ajax({
 
-		url: "//podium.co/api/v2/locations/16348/reviews?page[size]=50",
+		url: "//podium.co/api/v2/locations/" + self.podiumId + "/reviews?page[size]=50",
 		 dataFilter: function(data) {
 
 			var data = JSON.parse(data);
@@ -51,19 +44,16 @@ new Vue({
 				delete review.reviewUrl;
 				delete review.siteReviewId;
 				delete review.updatedAt;
+			
+				let reviewBodyLength = review.reviewBody.length;
 
-				let reviewRating = parseInt(review.rating);
-
-					if (reviewRating >= 4) {
+					if (review.rating >= 4 && reviewBodyLength > 100) {
 
 						return true
 
 					} else {
 						return false
 					}
-
-				//return review.rating === '3.0'
-				//return review.siteName === 'dealerrater'
 
 			 });
 
@@ -87,8 +77,6 @@ new Vue({
 
 			self.reviews = data;
 			self.sortReviews();
-	  		console.log('Success!');
-	  		console.log(data);
 
 		}
 
