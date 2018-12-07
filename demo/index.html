@@ -2556,11 +2556,8 @@ if (data.item.attributes.status != 5) { %>
                                                     <h3 class="sub-page-dr-head" id="ext-gen2056">See What Our
                                                         Customers Are Saying</h3>
                                                     <div class="row ddc-row">
-                                                        <review v-if="index < 3" v-for="(review, index) in orderedReviews" v-bind:review="review" v-bind:summary="filteredSummary"></review>
-                                                        <!-- <review v-if="review.siteName === 'facebook'" v-for="review in orderedReviews"
-                                                            v-bind:review="review" v-bind:summary="reviewSummary"></review>
-                                                        <review v-if="review.siteName === 'dealerrater'" v-for="review in orderedReviews"
-                                                            v-bind:review="review" v-bind:summary="reviewSummary"></review> -->
+                                                        <review v-if="index >= reviewStart && index <= reviewEnd" v-for="(review, index) in orderedReviews"
+                                                            :review="review" :summary="filteredSummary" :key="review.id"></review>
                                                     </div>
                                                 </div>
                                                 <br>
