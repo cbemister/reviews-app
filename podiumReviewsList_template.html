@@ -1,37 +1,38 @@
 <div id="app">
-	<h1>Customer Reviews </h1>
-	<div class="reviews-container">
-		<div class="header">
-			<h3>Recent Reviews</h3>
-		</div>
+	<div class="podium-reviews-container">
 		<div class="list-group reviews">
-			<div v-for="review in filteredReviews" class="review" href="#">
-				<img v-if="review.siteName === 'google'" class="website" src="//assets.podium.com/icons/google.svg" alt="Google">
-				<img v-else-if="review.siteName === 'facebook'" class="website" src="//assets.podium.com/icons/facebook.svg" alt="Google">
-				<img v-else-if="review.siteName === 'dealerrater'" class="website" src="//assets.podium.com/icons/dealerrater.svg"
-				 alt="Google">
-				<span class="name">
-					{{ review.author}}
-				</span>
-				<span class="stars">
-					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
-					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
-					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
-					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
-					<img src="//assets.podium.com/icons/star-on.png" alt="Star on">
-				</span>
-				<span class="date">
-					{{ review.publishDate }}
-				</span>
-				<div class="text">
-					{{ review.reviewBody }}
+			<div v-if="filteredReviews" v-for="review in filteredReviews" class="podium-review" href="#">
+				<div class="podium-review-logo"> <img v-if="review.siteName === 'google'" class="podium-social-icons" src="//pictures.dealer.com/a/autocanadatc/1700/7ac08f70c1c329684c7942d22083e956x.jpg"
+					 alt="Google"> <img v-else-if="review.siteName === 'facebook'" class="podium-social-icons" src="//pictures.dealer.com/a/autocanadatc/0447/6c20ac1c342d7d11f3e40d51ae4fb061x.jpg"
+					 alt="Facebook"> <img v-else-if="review.siteName === 'dealerrater'" class="podium-social-icons" src="//pictures.dealer.com/a/autocanadatc/0741/ae11842c17acca229192a3789f388078x.jpg"
+					 alt="DealerRater"></div>
+				<span class="podium-name">{{ review.author}}</span> <span class="stars"><i v-for="star in review.rating" class="fa fa-star"></i></span>
+				<span class="podium-date">{{ review.publishDate }}</span>
+				<div class="podium-text">{{ review.reviewBody }}</div>
+			</div>
+			<div v-if="filteredReviews.length === 0" class="reviewWrapper">
+
+				<h2 class="sub-page-dr-head" id="ext-gen2572">Voyez ce que nos clients ont à dire</h2>
+				<div id="socialbtn">
+					<div class="row ddc-row">
+						<div class="social-buttons col-xs-12 col-sm-4"><a target="_blank" href="https://search.google.com/local/writereview?&placeid=ChIJh78pO-sjyUwRrVvSmnvZA3w"
+							 title="Lisez nos critiques Google"><img class="col-xs-4 valign" src="//pictures.dealer.com/a/autocanadatc/1700/7ac08f70c1c329684c7942d22083e956x.jpg">
+								<p class="col-xs-8 valign">Lisez nos critiques Google</p>
+							</a>
+							<a class="btn ddc-btn btn-primary ddc-btn-primary" style="color: #666; background: initial" href="https://search.google.com/local/writereview?&placeid=ChIJh78pO-sjyUwRrVvSmnvZA3w"><i
+								 class="fa fa-pencil-square-o"></i>Laissez un commentaire</a>
+						</div>
+						<div class="social-buttons col-xs-12 col-sm-4"><a title="Lisez nos avis Facebook" target="_blank" href="https://www.facebook.com/bmwlaval/reviews/"><img
+								 class="col-xs-4 valign" src="//pictures.dealer.com/s/scarboroughtoyotausedtc/1185/78fab4fc1f64d9a52b1b7c414aa125ebx.jpg">
+								<p class="col-xs-8 valign">Lisez nos avis Facebook</p>
+							</a>
+							<a class="btn ddc-btn btn-primary ddc-btn-primary" style="color: #666; background: initial" href="https://www.facebook.com/bmwlaval/reviews/"><i class="fa fa-pencil-square-o"></i>Laissez
+								un commentaire</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="powered-by">
-				<a href="//podium.com" target="_blank">
-					<img class="logo" src="//assets.podium.com/icons/powered-by-podium-dark.png" alt="Powered by podium dark">
-				</a>
-			</div>
+
 		</div>
 	</div>
 </div>

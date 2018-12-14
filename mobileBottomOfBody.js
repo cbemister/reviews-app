@@ -1,4 +1,33 @@
-</script>
+
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ];
+  
+  const dateFilter = timestamp => {
+    return formatDate(timestamp);
+  };
+  
+  function formatDate(inputDate) {
+    const date = new Date(inputDate);
+    const year = date.getFullYear();
+    const month = date.getMonth();
+    const day = date.getDate();
+    const formattedDate = day + " " + months[month] + " " + year;
+    return formattedDate;
+  }
+  
+  </script></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
 
 <script>
@@ -9,7 +38,7 @@ new Vue({
     return {
       reviews: [],
       filteredReviews: [],
-      podiumId: 16348
+      podiumId: 27871
     }
   },
   methods: {
@@ -92,6 +121,8 @@ new Vue({
 
   }
 })
+
+$(' .ddc-footer .reviewWrapper').hide();
 
 </script>
 

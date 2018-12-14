@@ -1,4 +1,4 @@
-</script>
+</script></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
 
 <script>
@@ -9,7 +9,7 @@ new Vue({
     return {
       reviews: [],
       filteredReviews: [],
-      podiumId: 16348
+      podiumId: 27871
     }
   },
   methods: {
@@ -92,6 +92,8 @@ new Vue({
 
   }
 })
+
+$(' .ddc-footer .reviewWrapper').hide();
 
 </script>
 
